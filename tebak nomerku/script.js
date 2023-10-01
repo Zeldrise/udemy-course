@@ -49,6 +49,9 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       // document.querySelector('.message').textContent = '😥 kamu kalah!';
       displayMessage('😥 kamu kalah!');
+      document.querySelector('.number').textContent = '😭';
+      document.querySelector('body').style.backgroundColor = '#b34747';
+      document.querySelector('.number').style.width = '30rem';
       document.querySelector('.score').textContent = 0;
     }
   }
